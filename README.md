@@ -12,4 +12,4 @@ Heute haben wir angefangen, uns mit Arduino auseinander zu setzen, um erste Grun
 
 https://funduino.de/anleitung#1Vorwort_zur_Arduino_Anleitung
 
-Wir haben uns mit dem Controller und dem Breadboard auseinandergesetzt.
+Wir haben uns mit der Hardware, also dem Controller und dem Breadboard auseinandergesetzt. Zum Beispiel, welche Kontakte auf dem Breadboard verbunden sind und wie man eine LED anschließt. 
