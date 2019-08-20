@@ -6,6 +6,8 @@
 
 [3. Donnerstag, 15. August 2019](#3)
 
+[4. Dienstag, 20. August 2019](#4)
+
 
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
@@ -21,3 +23,13 @@ Heute haben wir angefangen, uns mit Arduino auseinanderzusetzen, um erste Grundk
 https://funduino.de/anleitung#1Vorwort_zur_Arduino_Anleitung
 
 Wir haben uns mit der Hardware, also dem Controller und dem Breadboard auseinandergesetzt. Zum Beispiel, welche Kontakte auf dem Breadboard verbunden sind und wie man eine LED anschließt. Dort haben wir zum Beispiel gelernt, dass der lange Kontakt einer LED der Plus- und der kurze Kontakt der Minuskontakt ist oder, dass die Stelle Strom abgibt, die als Ausgang definiert ist.
+
+### <a name="4"></a> Dienstag, 20. August 2019
+Heute haben wir die ersten praktischen Schritte mit dem Arduino gemacht. Zuerst laßen wir uns mit dem Link von letzter Woche (s. [3. Donnerstag, 15. August 2019](#3)) zum Thema LED anschließen und einen einfachen Sketch programmieren ein. Zum korrekten Anschließen der LED an das Breadboard nahmen wir auch ein Video zur Hilfe.
+https://www.youtube.com/watch?v=G4ZlfsbDtQo
+Wir erstellten zuerst den Sketch, den wir dann auf den Arduino übertrugen. Wir mussten angeben, welcher Pin des Controllers als Output fungieren soll, also, wo eine Spannung abgegeben wird. Wir nahmen Pin 13 und führten von der gleichen Zeile auf dem Breadboard den Widerstand auf eine weitere Zeile. In dieser Zeile schlossen wir nun die Anode (längerer Kontakt) der LED an, schlossen die Kathode in eine weitere Zeile und führten von dort ein Kabel wieder zurück zum Controller in den GND Eingang. 
+
+digitalWrite(...) --> Befehl, wie HIGH oder LOW
+delay(...) --> Befehl, das der Zustand für eine Anzahl an Millisekunden so bleibt.
+
+Wir brachten also heute die LED zum Blinken. Außderdem haben wir durch das Nacheinanderschreiben der Befehle ein SOS-Signal programmiert.
