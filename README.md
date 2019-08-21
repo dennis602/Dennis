@@ -8,6 +8,7 @@
 
 [4. Dienstag, 20. August 2019](#4)
 
+[5. Mittwoch, 21. August 2019](#5) 
 
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
@@ -40,3 +41,6 @@ digitalWrite(...) --> Befehl, wie HIGH oder LOW
 delay(...) --> Befehl, das der Zustand für eine Anzahl an Millisekunden so bleibt.
 
 Wir brachten also heute die LED zum Blinken. Außderdem haben wir durch das Nacheinanderschreiben der Befehle ein SOS-Signal programmiert.
+
+### <a name="5"></a> Mittwoch, 21. August 2019
+Heute beschäftigten wir uns wieder etwas mit GitHub, denn wir wollten den gestern erstellten Code in das Protokoll von gestern einfügen. Dazu mussten wir 
