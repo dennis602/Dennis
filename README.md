@@ -29,7 +29,12 @@ Heute haben wir die ersten praktischen Schritte mit dem Arduino gemacht. Zuerst 
 
 https://www.youtube.com/watch?v=G4ZlfsbDtQo
 
-Wir erstellten zuerst den Sketch, den wir dann auf den Arduino übertrugen. Screenshot einfügen. Wir mussten angeben, welcher Pin des Controllers als Output fungieren soll, also, wo eine Spannung abgegeben wird. Wir nahmen Pin 13 und führten von der gleichen Zeile auf dem Breadboard den Widerstand auf eine weitere Zeile. In dieser Zeile schlossen wir nun die Anode (längerer Kontakt) der LED an, schlossen die Kathode in eine weitere Zeile und führten von dort ein Kabel wieder zurück zum Controller in den GND Eingang. 
+Wir erstellten zuerst den Sketch, den wir dann auf den Arduino übertrugen.
+
+![1. Sketch](H:\Pictures\1. Sketch.PNG)
+
+
+Wir mussten angeben, welcher Pin des Controllers als Output fungieren soll, also, wo eine Spannung abgegeben wird. Wir nahmen Pin 13 und führten von der gleichen Zeile auf dem Breadboard den Widerstand auf eine weitere Zeile. In dieser Zeile schlossen wir nun die Anode (längerer Kontakt) der LED an, schlossen die Kathode in eine weitere Zeile und führten von dort ein Kabel wieder zurück zum Controller in den GND Eingang. 
 
 digitalWrite(...) --> Befehl, wie HIGH oder LOW
 delay(...) --> Befehl, das der Zustand für eine Anzahl an Millisekunden so bleibt.
