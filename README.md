@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=G4ZlfsbDtQo
 
 Wir erstellten zuerst den Sketch, den wir dann auf den Arduino übertrugen.
 
-![1. Sketch](H:\Pictures\1. Sketch.PNG)
+![1. Sketch](https://github.com/dennis602/Dennis/blob/master/1.%20Sketch.PNG)
 
 
 Wir mussten angeben, welcher Pin des Controllers als Output fungieren soll, also, wo eine Spannung abgegeben wird. Wir nahmen Pin 13 und führten von der gleichen Zeile auf dem Breadboard den Widerstand auf eine weitere Zeile. In dieser Zeile schlossen wir nun die Anode (längerer Kontakt) der LED an, schlossen die Kathode in eine weitere Zeile und führten von dort ein Kabel wieder zurück zum Controller in den GND Eingang. 
