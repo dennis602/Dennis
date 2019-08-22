@@ -50,3 +50,5 @@ Heute beschäftigten wir uns wieder etwas mit GitHub, denn wir wollten den geste
 Außerdem wollten wir etwas konkretere Projektplanungen entwickeln und recherchierten ein wenig über mögliche Projekte. Zu vielen möglichen Projekten gibt es allerdings sehr detaillierte Anleitungen im Internet und wir würden gerne etwas eigenes machen. Also gibt es nun die Überlegungen über zum Beispiel einen Kran oder einen Leuchtturm mit speziellen Fähigkeiten.
 
 ### <a name="6"></a>Donnerstag, 22. August 2019
+
+https://funduino.de/nr-12-servo-ansteuern
