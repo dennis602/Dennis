@@ -51,4 +51,8 @@ Außerdem wollten wir etwas konkretere Projektplanungen entwickeln und recherchi
 
 ### <a name="6"></a>Donnerstag, 22. August 2019
 
+Nach weiteren Überelegungen hatten wir dann die Ideee ein Parkhaus zu entwerfen und zu programmieren. Der Vorteil daran ist, dass wir immer nur kleine Projekte nachheinander haben und wenn dann mal eines nicht funktioniert, ist nicht gleich das ganze Projekt gescheitert. Unser erster Schritt ist die Schranke. Deshalb war dann das Thema für diese Stunde der Servomotor. Zuerst haben wir recherchiert worauf man beim Softare-Programmieren achten sollte und uns dann mit der Hardware auseinandergesetzt. Wir haben eine leicht verständliche Anleitung gefunden und diese einfach mal umgesetzt.
+
 https://funduino.de/nr-12-servo-ansteuern
+
+Am Ende der Stunde hat sich dann nach einen Komplikationen und falsch verbundenen Kabeln der Motor bewegt. Ein erster Schritt zum Parkhaus
