@@ -59,3 +59,7 @@ https://funduino.de/nr-12-servo-ansteuern
 
 
 Am Ende der Stunde hat sich dann nach einen Komplikationen und falsch verbundenen Kabeln der Motor bewegt. Ein erster Schritt zum Parkhaus
+
+Dienstag, 27. August
+
+https://github.com/dennis602/Dennis/blob/master/sketch%20servo.PNG?raw=true
