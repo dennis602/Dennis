@@ -12,6 +12,8 @@
 
 [6. Donnerstag, 22. August 2019](#6)
 
+[7. Dienstag, 27. August 2019](#7)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -37,7 +39,7 @@ Wir erstellten zuerst den Sketch, den wir dann auf den Arduino übertrugen.
 ![1. Sketch](https://github.com/dennis602/Dennis/blob/master/1.%20Sketch.PNG)
 
 
-Wir mussten angeben, welcher Pin des Controllers als Output fungieren soll, also, wo eine Spannung abgegeben wird. Wir nahmen Pin 13 und führten von der gleichen Zeile auf dem Breadboard den Widerstand auf eine weitere Zeile. In dieser Zeile schlossen wir nun die Anode (längerer Kontakt) der LED an, schlossen die Kathode in eine weitere Zeile und führten von dort ein Kabel wieder zurück zum Controller in den GND Eingang. 
+Wir mussten angeben, welcher Pin des Controllers als Output fungieren soll, also, wo eine Spannung abgegeben wird. Wir nahmen Pin 13 und führten von der gleichen Zeile auf dem Breadboard den Widerstand auf eine weitere Zeile. In dieser Zeile schlossen wir nun die Anode (längerer Kontakt) der LED an, schlossen die Kathode in eine weitere Zeile und führten von dort ein Kabel wieder zurück zum Controller in den GND Eingang, um den Stromkreis zu schließen. 
 
 digitalWrite(...) --> Befehl, wie HIGH oder LOW
 delay(...) --> Befehl, das der Zustand für eine Anzahl an Millisekunden so bleibt.
@@ -58,8 +60,14 @@ https://funduino.de/nr-12-servo-ansteuern
 ![2. Sketch](https://github.com/dennis602/Dennis/blob/master/sketch%20servo.PNG?raw=true)
 
 
-Am Ende der Stunde hat sich dann nach einen Komplikationen und falsch verbundenen Kabeln der Motor bewegt. Ein erster Schritt zum Parkhaus
+Am Ende der Stunde hat sich dann nach einen Komplikationen und falsch verbundenen Kabeln der Motor bewegt. Ein erster Schritt zum Parkhaus.
 
-Dienstag, 27. August
+### <a name="7"></a>Dienstag, 27. August
 
-(https://github.com/dennis602/Dennis/blob/master/sketch%20servo.PNG?raw=true)
+Heute ging es darum, den Sketch von letzter Stunde noch einmal genau anzuschauen und zu verstehen. Das klappte problemlos, sodass wir ohne Schwierigkeiten ohne Anleitung das gleiche nocheinmal durchführen konnten. 
+
+Somit machten wir den nächsten Schritt: Den Bewegungssensor, der die Schranke öffnen soll, wenn ein Fahrzeug vorbei fährt. Dazu lasen wir uns mit dem folgenden Link ein:
+
+https://funduino.de/nr-8-bewegungsmelder
+
+Wir wollten vorerst eine LED zum leuchten bringen, sobald eine Bewegung registriert wird. Also nutzen wir auch ein Breadboard, auf dem wir die LED wie am ### <a name="4"></a> Dienstag, 20. August 2019 . Dann folgten wir der Anleitung, also versorgten wir den Sensor per 5V Anschluss des Arduinos mit Strom und schalteten einen Stromkreis so, dass der Arduino bei einem Siganl des Sensors die LED mit Strom versorgen kann. Welche Pins belegt werden, muss mit dem Sketch übereinstimmen. Da die Stunde schon fast zu Ende war, machten wir das alles sehr schnell. Es funktionierte aber direkt, also werden wir uns das ganze morgen erneut angucken. Der nächste Schritt ist, ein Servo per Bewegungsmelder zu steuern.
