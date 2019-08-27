@@ -14,6 +14,8 @@
 
 [7. Dienstag, 27. August 2019](#7)
 
+[8. Mittwoch, 28, August 2019](#8)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -62,7 +64,7 @@ https://funduino.de/nr-12-servo-ansteuern
 
 Am Ende der Stunde hat sich dann nach einen Komplikationen und falsch verbundenen Kabeln der Motor bewegt. Ein erster Schritt zum Parkhaus.
 
-### <a name="7"></a>Dienstag, 27. August
+### <a name="7"></a>Dienstag, 27. August 2019
 
 Heute ging es darum, den Sketch von letzter Stunde noch einmal genau anzuschauen und zu verstehen. Das klappte problemlos, sodass wir ohne Schwierigkeiten ohne Anleitung das gleiche nocheinmal durchführen konnten. 
 
@@ -77,3 +79,5 @@ Wir wollten vorerst eine LED zum leuchten bringen, sobald eine Bewegung registri
 ![Bewegungsmelder LED](https://github.com/dennis602/Dennis/blob/master/Arduino%20Bewegungsmelder.jpg?raw=true)
 
 Der nächste Schritt ist, ein Servo per Bewegungsmelder zu steuern.
+
+### <a name="8"></a>Mittwoch, 28. August 2019
