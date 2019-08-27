@@ -62,4 +62,4 @@ Am Ende der Stunde hat sich dann nach einen Komplikationen und falsch verbundene
 
 Dienstag, 27. August
 
-https://github.com/dennis602/Dennis/blob/master/sketch%20servo.PNG?raw=true
+(https://github.com/dennis602/Dennis/blob/master/sketch%20servo.PNG?raw=true)
