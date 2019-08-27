@@ -55,7 +55,7 @@ Nach weiteren Überelegungen hatten wir dann die Ideee ein Parkhaus zu entwerfen
 
 https://funduino.de/nr-12-servo-ansteuern
 
-sketch servo.PNG
+
 
 
 Am Ende der Stunde hat sich dann nach einen Komplikationen und falsch verbundenen Kabeln der Motor bewegt. Ein erster Schritt zum Parkhaus
