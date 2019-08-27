@@ -66,6 +66,8 @@ Am Ende der Stunde hat sich dann nach einen Komplikationen und falsch verbundene
 
 Heute ging es darum, den Sketch von letzter Stunde noch einmal genau anzuschauen und zu verstehen. Das klappte problemlos, sodass wir ohne Schwierigkeiten ohne Anleitung das gleiche nocheinmal durchführen konnten. 
 
+(https://github.com/dennis602/Dennis/blob/master/IMG_20190827_124143%20(1).jpg?raw=true)
+
 Somit machten wir den nächsten Schritt: Den Bewegungssensor, der die Schranke öffnen soll, wenn ein Fahrzeug vorbei fährt. Dazu lasen wir uns mit dem folgenden Link ein:
 
 https://funduino.de/nr-8-bewegungsmelder
