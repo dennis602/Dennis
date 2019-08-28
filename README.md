@@ -74,10 +74,13 @@ Somit machten wir den n채chsten Schritt: Den Bewegungssensor, der die Schranke �
 
 https://funduino.de/nr-8-bewegungsmelder
 
-Wir wollten vorerst eine LED zum leuchten bringen, sobald eine Bewegung registriert wird. Also nutzen wir auch ein Breadboard, auf dem wir die LED wie am [4. Dienstag, 20. August 2019](#4). Dann folgten wir der Anleitung, also versorgten wir den Sensor per 5V Anschluss des Arduinos mit Strom und schalteten einen Stromkreis so, dass der Arduino bei einem Siganl des Sensors die LED mit Strom versorgen kann. Welche Pins belegt werden, muss mit dem Sketch 체bereinstimmen. Da die Stunde schon fast zu Ende war, machten wir das alles sehr schnell. Es funktionierte aber direkt, also werden wir uns das ganze morgen erneut angucken.
+Wir wollten vorerst eine LED zum leuchten bringen, sobald eine Bewegung registriert wird. Also nutzen wir auch ein Breadboard, auf dem wir die LED wie am [4. Dienstag, 20. August 2019](#4) befestigten. Dann folgten wir der Anleitung, also versorgten wir den Sensor per 5V Anschluss des Arduinos mit Strom und schalteten einen Stromkreis so, dass der Arduino bei einem Siganl des Sensors die LED mit Strom versorgen kann. Welche Pins belegt werden, muss mit dem Sketch 체bereinstimmen. Da die Stunde schon fast zu Ende war, machten wir das alles sehr schnell. Es funktionierte aber direkt, also werden wir uns das ganze morgen erneut angucken.
 
 ![Bewegungsmelder LED](https://github.com/dennis602/Dennis/blob/master/Arduino%20Bewegungsmelder.jpg?raw=true)
 
 Der n채chste Schritt ist, ein Servo per Bewegungsmelder zu steuern.
 
 ### <a name="8"></a>Mittwoch, 28. August 2019
+Anfangs haben wir den Aufbau der letzten Stunde wiederholt. Doch diese Stunde hatten wir das Ziel einen Servomotor mit dem Bewegungsmotor zu verbinden. Wir haben dann den gleichen Aufbau wie am [7. Dienstag, 27. August 2019](#7) genommen, nur die LED  auf dem Breadboard mit einem Servo ausgetauscht.
+Bild
+Den Sketch haben  wir dann aus denen f체r den Bewegungsmelder und dem f체r den Servomotor zusammengesetzt. Der Sketch hat leider nicht funktioniert, doch weil die Stunde vorbei war, konnten wir ihn nicht reparieren.
