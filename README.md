@@ -81,8 +81,12 @@ Wir wollten vorerst eine LED zum leuchten bringen, sobald eine Bewegung registri
 Der nächste Schritt ist, ein Servo per Bewegungsmelder zu steuern.
 
 ### <a name="8"></a>Mittwoch, 28. August 2019
-Anfangs haben wir den Aufbau der letzten Stunde wiederholt. Doch diese Stunde hatten wir das Ziel einen Servomotor mit dem Bewegungsmotor zu verbinden. Wir haben dann den gleichen Aufbau wie am [7. Dienstag, 27. August 2019](#7) genommen, nur die LED  auf dem Breadboard mit einem Servo ausgetauscht.
+Anfangs haben wir den Aufbau der letzten Stunde wiederholt. Doch diese Stunde hatten wir das Ziel einen Servomotor mit dem Bewegungsmotor zu verbinden. Wir haben dann den gleichen Aufbau wie am [7. Dienstag, 27. August 2019](#7) genommen, nur die LED  auf dem Breadboard mit einem Servo ausgetauscht. Um zwei Geräte (Servo und Bewegungsmelder) per Arduino mit Strom zu versorgen, leiteten wir das 5V Kabel auf die + Seite des Breadboards, wo wir anschließend beide Geräte anschließen konnten. 
 
 Bild
 
 Den Sketch haben  wir dann aus denen für den Bewegungsmelder und dem für den Servomotor zusammengesetzt. Der Sketch hat leider nicht funktioniert, doch weil die Stunde vorbei war, konnten wir ihn nicht reparieren.
+
+
+### < name="9"></a>Donnerstag, 29. August 2019
+Heute probierten wir das Problem von gestern zu lösen. Wir nahmen den gleichen Ansatz, und zwar zwei funktionierende Sketche kombinieren. Wir schauten uns also die Sketche zum Bewegen eines Servomotors an und den zum Aufleuchten einer LED per Bewegungsmelder. Nach einigen Fehlermeldungen konnten wir mit Hilfe von Herrn Buhl den Sketch fehlerfrei kriegen. Screenshot Sketch. Es funktionierte leider nicht ganz wie gewünscht. Der Servo bewegte sich zwar nach der Registrierung, jedoch nicht nach der im " delay(...) " angegebenen Zeit. Um dies zu überprüfen werden wir nächstes Mal das Ganze mit einer LED noch einmal testen, um den Fehler zu lösen. 
