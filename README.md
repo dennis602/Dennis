@@ -16,6 +16,8 @@
 
 [8. Mittwoch, 28, August 2019](#8)
 
+[9. Donnerstag, 29. August 2019](#9)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -83,7 +85,7 @@ Der nächste Schritt ist, ein Servo per Bewegungsmelder zu steuern.
 ### <a name="8"></a>Mittwoch, 28. August 2019
 Anfangs haben wir den Aufbau der letzten Stunde wiederholt. Doch diese Stunde hatten wir das Ziel einen Servomotor mit dem Bewegungsmotor zu verbinden. Wir haben dann den gleichen Aufbau wie am [7. Dienstag, 27. August 2019](#7) genommen, nur die LED  auf dem Breadboard mit einem Servo ausgetauscht. Um zwei Geräte (Servo und Bewegungsmelder) per Arduino mit Strom zu versorgen, leiteten wir das 5V Kabel auf die + Seite des Breadboards, wo wir anschließend beide Geräte anschließen konnten. 
 
-Bild
+![Schaltung Servo mit Bewegungsmelder](https://github.com/dennis602/Dennis/blob/master/IMG_20190828_121518.jpg?raw=true)
 
 Den Sketch haben  wir dann aus denen für den Bewegungsmelder und dem für den Servomotor zusammengesetzt. Der Sketch hat leider nicht funktioniert, doch weil die Stunde vorbei war, konnten wir ihn nicht reparieren.
 
