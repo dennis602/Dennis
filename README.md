@@ -18,6 +18,8 @@
 
 [9. Donnerstag, 29. August 2019](#9)
 
+[10. Dienstag, 10. September 2019](#10)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -96,3 +98,11 @@ Heute probierten wir das Problem von gestern zu lösen. Wir nahmen den gleichen 
 ![Sketch Servo-Bewegungsmelder](https://github.com/dennis602/Dennis/blob/master/sketch_servo_bewegungsmelder_29.08.19.PNG?raw=true)
 
 Es funktionierte leider nicht ganz wie gewünscht. Der Servo bewegte sich zwar nach der Registrierung, jedoch nicht nach der im " delay(...) " angegebenen Zeit. Um dies zu überprüfen werden wir nächstes Mal das Ganze mit einer LED noch einmal testen, um den Fehler zu lösen. 
+
+
+
+Die folgende Woche ist der Informatikunterricht ausgefallen.
+
+
+
+### <a name="10"></a>Dienstag, 10. September 2019
