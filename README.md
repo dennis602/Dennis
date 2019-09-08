@@ -93,6 +93,6 @@ Den Sketch haben  wir dann aus denen für den Bewegungsmelder und dem für den S
 ### <a name="9"></a>Donnerstag, 29. August 2019
 Heute probierten wir das Problem von gestern zu lösen. Wir nahmen den gleichen Ansatz, und zwar zwei funktionierende Sketche kombinieren. Wir schauten uns also die Sketche zum Bewegen eines Servomotors an und den zum Aufleuchten einer LED per Bewegungsmelder. Nach einigen Fehlermeldungen konnten wir mit Hilfe von Herrn Buhl den Sketch fehlerfrei kriegen. 
 
-![Sketch Servo-Bewegungsmelder](sketch_servo_bewegungsmelder_29.08 (1).19)
+![Sketch Servo-Bewegungsmelder](https://github.com/dennis602/Dennis/blob/master/sketch_servo_bewegungsmelder_29.08.19.PNG?raw=true)
 
 Es funktionierte leider nicht ganz wie gewünscht. Der Servo bewegte sich zwar nach der Registrierung, jedoch nicht nach der im " delay(...) " angegebenen Zeit. Um dies zu überprüfen werden wir nächstes Mal das Ganze mit einer LED noch einmal testen, um den Fehler zu lösen. 
