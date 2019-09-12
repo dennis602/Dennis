@@ -22,7 +22,7 @@
 
 [11. Mittwoch, 11. September 2019](#11)
 
-[12. Donnestag, 12. September 2019](#12)
+[12. Donnerstag, 12. September 2019](#12)
 
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
@@ -115,4 +115,6 @@ Diese Stunde ist der Untrricht ebenfalls ausgefallen.
 ### <a name="10"></a>Mittwoch, 11. September 2019
 Heute haben wir erneut einen Motor mit einem Bewegungsmelder verbunden und im Sketch nach unseren Fehlern gesucht, weil es noch nicht ganz funktioniert hat. Anstatt, dass der Motor auf Bewegung auf und dann nach einiger Zeit wieder zu geht, ging er in immer gleichen zeitlichen Abständen auf und zu. Um nach möglihen Fehlern zu suchen, haben wir an den Bewegungsmelder statt einen Motor eine LED gebaut und den alten funktionierenden Sketch genommen. Das hat wieder funktionier und die Lampe ging auf Bewegung an, doch leider blieb sie länger an als wir wollten.
 
-### <a name="10"></a>Donnestag, 12. September 2019
+### <a name="10"></a>Donnerstag, 12. September 2019
+Heute haben wir erneut einen Motor mit einem Bewegungsmaelder verbunden. Unser Problem mit der nicht zu kontrollierenden Zeit haben wir gelöst, wir konnten am Bewegungsmelder selbst ein Rad drehen und somit die Zeit verändern. In den Sketch haben wir mit der Hilfe von Herrn Buhl einen sogenannten serial Pin eingefügt, der zeigt, an welcher Stelle des Programms der Code gerade ist und somit sehr viel mehr Überblick verschafft. Außerdem hat das reagieren des Motors auf Bewegung endlich geklappt. Wir können jetzt also einen Motor nur durch Bewegung steuern.
+![Sketch Bewegungsmelder und servo
