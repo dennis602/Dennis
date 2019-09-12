@@ -111,3 +111,5 @@ Die folgende Woche ist der Informatikunterricht ausgefallen.
 Diese Stunde ist der Untrricht ebenfalls ausgefallen.
 
 ### <a name="10"></a>Mittwoch, 11. September 2019
+Heute haben wir erneut einen Motor mit einem Bewegungsmelder verbunden und im Sketch nach unseren Fehlern gesucht, weil es noch nicht ganz funktioniert hat. Anstatt, dass der Motor auf Bewegung auf und dann nach einiger Zeit wieder zu geht, ging er in immer gleichen zeitlichen Abständen auf und zu. Um nach möglihen Fehlern zu suchen, haben wir an den Bewegungsmelder statt einen Motor eine LED gebaut und den alten funktionierenden Sketch genommen. Das hat wieder funktionier und die Lampe ging auf Bewegung an, doch leider blieb sie länger an als wir wollten.
+
