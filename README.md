@@ -22,6 +22,8 @@
 
 [11. Mittwoch, 11. September 2019](#11)
 
+[12. Donnestag, 12. September 2019](#12)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -113,3 +115,4 @@ Diese Stunde ist der Untrricht ebenfalls ausgefallen.
 ### <a name="10"></a>Mittwoch, 11. September 2019
 Heute haben wir erneut einen Motor mit einem Bewegungsmelder verbunden und im Sketch nach unseren Fehlern gesucht, weil es noch nicht ganz funktioniert hat. Anstatt, dass der Motor auf Bewegung auf und dann nach einiger Zeit wieder zu geht, ging er in immer gleichen zeitlichen Abständen auf und zu. Um nach möglihen Fehlern zu suchen, haben wir an den Bewegungsmelder statt einen Motor eine LED gebaut und den alten funktionierenden Sketch genommen. Das hat wieder funktionier und die Lampe ging auf Bewegung an, doch leider blieb sie länger an als wir wollten.
 
+### <a name="10"></a>Donnestag, 12. September 2019
