@@ -20,6 +20,8 @@
 
 [10. Dienstag, 10. September 2019](#10)
 
+[11. Mittwoch, 11. September 2019](#11)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -106,3 +108,6 @@ Die folgende Woche ist der Informatikunterricht ausgefallen.
 
 
 ### <a name="10"></a>Dienstag, 10. September 2019
+Diese Stunde ist der Untrricht ebenfalls ausgefallen.
+
+### <a name="10"></a>Mittwoch, 11. September 2019
