@@ -118,3 +118,5 @@ Heute haben wir erneut einen Motor mit einem Bewegungsmelder verbunden und im Sk
 ### <a name="10"></a>Donnerstag, 12. September 2019
 Heute haben wir erneut einen Motor mit einem Bewegungsmaelder verbunden. Unser Problem mit der nicht zu kontrollierenden Zeit haben wir gelöst, wir konnten am Bewegungsmelder selbst ein Rad drehen und somit die Zeit verändern. In den Sketch haben wir mit der Hilfe von Herrn Buhl einen sogenannten serial Print eingefügt, der zeigt, an welcher Stelle des Programms der Code gerade ist und somit sehr viel mehr Überblick verschafft. Außerdem hat das reagieren des Motors auf Bewegung endlich geklappt. Wir können jetzt also einen Motor nur durch Bewegung steuern.
 ![Sketch Bewegungsmelder und servo mit serial Print](https://github.com/dennis602/Dennis/blob/master/servo_bewegung_funktioniert.PNG?raw=true)
+
+Dienstag, 
