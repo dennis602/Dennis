@@ -126,7 +126,7 @@ Heute haben wir erneut einen Motor mit einem Bewegungsmaelder verbunden. Unser P
 Die folgende Woche waren wir auf Studienfahrt.
 
 ### <a name="13"></a>Dienstag, 24. September 2019
-Als erstes überprüften wir, ob alles was wir uns letzte Stunde erarbeitet haben noch so funktioniert, wie es sollte. Alles hat geklappt und somit konnten wir uns Gedanken machen, wie es nun weiter geht. Bis jetzt haben wir für unsere Idee mit dem Parkhaus mit einer Schranke die hoch geht, sobald ein Auto vorbei fährt, aber geschlossen bleibt, wenn kein Parkplatz mehr frei ist, die Schranke. 
+Als erstes überprüften wir, ob alles was wir uns letzte Stunde erarbeitet haben noch so funktioniert, wie es sollte. Alles hat geklappt und somit konnten wir uns Gedanken machen, wie es nun weiter geht. Unser gesamtes Ziel ist es ja, ein Parkhaaus mit einer Schranke zu haben, die aufgeht, sobald ein Auto vorbei fährt. Ist kein Parkplatz mehr frei, soll sie geschlossen bleiben. Dazu haben wir bis jetzt also die Schranke.
 Um diesen Mechanismus zu unterbrechen, sobald das Parkhaus voll ist, wollen wir einen weiteren Sensor, und zwar einen Ultraschallsensor verwenden, der den Schrankenmechanismus unterbricht, sobald wenige Zentimeter vor ihm ein Objekt steht. Beginnen wollen wir wieder mit einer LED, um uns mit dem Sensor vertraut zu machen. Die Anleitung dazu haben wir bei iSurf unter den Arduino-Dokumenten gefunden und werden morgen damit starten. Die Hardware dafür haben wir heute schon herausgesucht.
 
 ### <a name="14"></a>Mittwoch, 25. September 2019
@@ -138,6 +138,8 @@ Der funktionierende Sketch sah also folgendermaßen aus:
 
 ![Sketch Ultraschallsensor](https://github.com/dennis602/Dennis/blob/master/Sketch_Ultraschall_LED_funktioniert.PNG?raw=true)
 
+Im void loop muss also angegeben werden, wie oft der Ultraschallsensor Signale aussenden soll.
+
 Nun schalteten wir noch die Hardware über ein Breadboard, mit einer LED, die leuchtet, sobald sich 20 cm vor dem Ultraschallsensor etwas befindet. Alles hat funktioniert. 
 
-Bild
+![Aufbau 25.09.19](https://github.com/dennis602/Dennis/blob/master/Ultraschallsensor.jpg?raw=true)
