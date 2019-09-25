@@ -26,6 +26,8 @@
 
 [13. Dienstag, 24. September 2019](#13)
 
+[14. Mittwoch, 25. September 2019](#14)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -126,3 +128,15 @@ Die folgende Woche waren wir auf Studienfahrt.
 ### <a name="13"></a>Dienstag, 24. September 2019
 Als erstes überprüften wir, ob alles was wir uns letzte Stunde erarbeitet haben noch so funktioniert, wie es sollte. Alles hat geklappt und somit konnten wir uns Gedanken machen, wie es nun weiter geht. Bis jetzt haben wir für unsere Idee mit dem Parkhaus mit einer Schranke die hoch geht, sobald ein Auto vorbei fährt, aber geschlossen bleibt, wenn kein Parkplatz mehr frei ist, die Schranke. 
 Um diesen Mechanismus zu unterbrechen, sobald das Parkhaus voll ist, wollen wir einen weiteren Sensor, und zwar einen Ultraschallsensor verwenden, der den Schrankenmechanismus unterbricht, sobald wenige Zentimeter vor ihm ein Objekt steht. Beginnen wollen wir wieder mit einer LED, um uns mit dem Sensor vertraut zu machen. Die Anleitung dazu haben wir bei iSurf unter den Arduino-Dokumenten gefunden und werden morgen damit starten. Die Hardware dafür haben wir heute schon herausgesucht.
+
+### <a name="14"></a>Mittwoch, 25. September 2019
+Heute fingen wir direkt an, den Sketch für den Ultraschallsensor zu entwickeln. Als Vorlage nutzten wir den Sketch aus den Arduino-Dokumenten, wie gestern beschrieben. Diesen passten wir an unsere Verkabelung an, indem wir die richtigen Pins als Input, Output und die Sensorpins richtig definierten. Anschließend haben wir mit unseren bisherigen Vorkenntnissen den Sketch etwas umgeschrieben und verändert, damit er funktioniert. Damit der Arduino den Abstand berechnen kann, mussten wir außerdem die entsprechene Formel einfügen, die wir im Internet gefunden haben.
+
+https://www.mymakerstuff.de/2016/05/24/arduino-tutorial-der-ultraschallsensor/
+
+Der funktionierende Sketch sah also folgendermaßen aus:
+Bild 
+
+Nun schalteten wir noch die Hardware über ein Breadboard, mit einer LED, die leuchtet, sobald sich 20 cm vor dem Ultraschallsensor etwas befindet. Alles hat funktioniert. 
+
+Bild
