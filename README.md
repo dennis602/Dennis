@@ -136,7 +136,7 @@ https://www.mymakerstuff.de/2016/05/24/arduino-tutorial-der-ultraschallsensor/
 
 Der funktionierende Sketch sah also folgendermaßen aus:
 
-![Sketch Ultraschallsensor]
+![Sketch Ultraschallsensor](https://github.com/dennis602/Dennis/blob/master/Sketch_Ultraschall_LED_funktioniert.PNG?raw=true)
 
 Nun schalteten wir noch die Hardware über ein Breadboard, mit einer LED, die leuchtet, sobald sich 20 cm vor dem Ultraschallsensor etwas befindet. Alles hat funktioniert. 
 
