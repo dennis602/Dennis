@@ -28,6 +28,10 @@
 
 [14. Mittwoch, 25. September 2019](#14)
 
+[15. Donnerstag, 26. September 2019](#15)
+
+[16. Dienstag, 01. Oktober 2019](#16)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -143,3 +147,11 @@ Im void loop muss also angegeben werden, wie oft der Ultraschallsensor Signale a
 Nun schalteten wir noch die Hardware über ein Breadboard, mit einer LED, die leuchtet, sobald sich 20 cm vor dem Ultraschallsensor etwas befindet. Alles hat funktioniert. 
 
 ![Aufbau 25.09.19](https://github.com/dennis602/Dennis/blob/master/Ultraschallsensor.jpg?raw=true)
+
+### <a name="15"></a>Donnerstag, 26. September 2019
+Heute haben wir mit den LEDs und dem Ultraschallsensor noch etwas weiter gearbeitet, indem wir versucht haben, je nach Entfernung, verschiedene LEDs zum leuchten zu bringen. Also haben wir den Sketch von gestern weiter bearbeitet und noch zwei weitere "if" Befehle für zwei weitere LEDs eingefügt und die Hardware soweit angepasst. Da die Software Entfernungen wie (20<distance<30) nicht angenommen hat, wollten wir einfach, dass pro 10 cm eine LED mehr leuchtet und ab 40 cm keine mehr. 
+Leider hat das alles nur mäßig gut funktioniert, manchmal gab es Probleme. Zum Beispiel, dass die LEDs gar nicht mehr ausgingen, sondern erst etwas später.
+Um das nachzuvollziehen, könnten wir nächstes Mal noch einen Serial.Print einfügen, um den Status des Arduinos nachvollziehen zu können.
+
+### <a name="16"></a>Dienstag, 01.Oktober 2019
+Heute war die 12b auf Exkursion.
