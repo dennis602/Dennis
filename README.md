@@ -32,6 +32,8 @@
 
 [16. Dienstag, 01. Oktober 2019](#16)
 
+[17. Mittwoch, 02. Oktober 2019](#17)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -155,3 +157,8 @@ Um das nachzuvollziehen, könnten wir nächstes Mal noch einen Serial.Print einf
 
 ### <a name="16"></a>Dienstag, 01.Oktober 2019
 Heute war die 12b auf Exkursion.
+
+
+### <a name="17"></a>Mittwoch, 02. Oktober 2019
+
+
