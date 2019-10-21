@@ -161,4 +161,4 @@ Heute war die 12b auf Exkursion.
 
 ### <a name="17"></a>Mittwoch, 02. Oktober 2019
 
-
+Heute wollten wir den funktionierenden Sketch für den Ultraschallsensor mit dem für den Bewegungsmelder/Servo verbinden. Hierzu haben  wir einfach den Ultraschall-Sketch in den Bewegungsmelder-Sketch eingefügt. Um zu erkennen, was passiert haben wir einen seril print eingefügt. Das Programm Arduino hat den Sketch überprüft und angenommen. Laut Arduino gibt es in unserem Sketch keine Fehler. Leider hat es nicht funktioniert, wir vermuten einen Fehler in der Hardware. Trotzdem sind wir unserem Ziel, einen Servomotor, der durch Bewegegung gesteuert wird, mit einem Ultraschallsensor zu aktivieren oder zu deaktivieren ein großer Stück dichter gekommen.
