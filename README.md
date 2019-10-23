@@ -34,7 +34,9 @@
 
 [17. Mittwoch, 02. Oktober 2019](#17)
 
-[18. Dienstag, 21. Oktober 2019](#18)
+[18. Dienstag, 22. Oktober 2019](#18)
+
+[19. Mittwoch, 23. Oktober 2019](#19)
 
 
 ### <a name="1"></a>Dienstag, 13. August 2019
@@ -170,3 +172,6 @@ Heute wollten wir den funktionierenden Sketch für den Ultraschallsensor mit dem
 ### <a name="18"></a>Dienstag, 22.Oktober 2019
 
 Heute war die erste Stunde nach den Herbstferien. Aus diesem Grund mussten wir uns auch erst wieder in das Thema einlesen und eindenken. Als nächstes haben wir einen neuen Ansatz verfolgt, um unser Problem von vor den Ferien zu lösen. Der neue Ansatz ist eine so genannte  "Do While" Schleife im Sketch. Diese befindet sich im Loop des Sketches. In den " Do" Teil haben wir die Anweiseungen für den Bewegungsmelder und den Servo geschrieben und in den "While" Teil die Bedingung, dass die Entfernung größer als 3cm sein muss. Gedacht war also, dass der "Do" Teil nur funktioniert, wenn der Ultraschallsensor eine Entfernung über 3cm feststellt. Leider hat auch dieser Ansatz noch nicht ganz funktioniert, der Servo hat sich zwar auf unsere Handbewegung hin bewegt, doch leider auch wenn ein Gegenstand dichter als 3cm am Ultraschallsensor war. Das sollte eigentlich nicht passieren.
+
+
+### <a name="19"></a>Mittwoch, 23.Oktober 2019
