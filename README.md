@@ -178,3 +178,5 @@ Heute war die erste Stunde nach den Herbstferien. Aus diesem Grund mussten wir u
 
 Heute haben wir weiter probiert unseren Plan in die Tat umzusetzen. Zuerst haben wir eine "While" Schleife gemacht und in den While-Teil die Bedingung distance größer als 3cm eingefügt. Wir wollten, dass zuerst die Entfernung kontrolliert wird und nur wenn diese groß genug ist, also kein "Auto" vor dem Sensor steht, soll der Bewegungsmelder-Servo-Sketch aktiviert werden. Leider hat das nicht so funktioniert wie wir wollten. Danach haben wir nochmal den Ansatz mit mehreren If Bedingungen ausprobiert. Wir haben in der ersten If Bedingung die Entfernung geregelt und in der zweiten dann der Bewegungsmelder. Um einen Überlick zu erhalten haben wir einen Serialprint eingefügt. Und auf einmal hat alles funktioniert. der Servo reagiert auf Bewegung, aber nur wenn der Ultraschallsensor eine Entfernung über 3cm feststellt. Ein paar Kleinigkeiten ruckelten noch im Servo aber im großen und ganzen hat jetzt alles so funktioniert wie wir es wollten.
 
+![Aufbau 23.10.19](https://github.com/dennis602/Dennis/blob/master/bild_23.10.19.jpg)
+
