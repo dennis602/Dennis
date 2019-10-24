@@ -38,6 +38,8 @@
 
 [19. Mittwoch, 23. Oktober 2019](#19)
 
+[20. Donnerstag, 24. Oktober 2019](#20)
+
 
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
@@ -179,4 +181,9 @@ Heute war die erste Stunde nach den Herbstferien. Aus diesem Grund mussten wir u
 Heute haben wir weiter probiert unseren Plan in die Tat umzusetzen. Zuerst haben wir eine "While" Schleife gemacht und in den While-Teil die Bedingung distance größer als 3cm eingefügt. Wir wollten, dass zuerst die Entfernung kontrolliert wird und nur wenn diese groß genug ist, also kein "Auto" vor dem Sensor steht, soll der Bewegungsmelder-Servo-Sketch aktiviert werden. Leider hat das nicht so funktioniert wie wir wollten. Danach haben wir nochmal den Ansatz mit mehreren If Bedingungen ausprobiert. Wir haben in der ersten If Bedingung die Entfernung geregelt und in der zweiten dann der Bewegungsmelder. Um einen Überlick zu erhalten haben wir einen Serialprint eingefügt. Und auf einmal hat alles funktioniert. der Servo reagiert auf Bewegung, aber nur wenn der Ultraschallsensor eine Entfernung über 3cm feststellt. Ein paar Kleinigkeiten ruckelten noch im Servo aber im großen und ganzen hat jetzt alles so funktioniert wie wir es wollten.
 
 ![Aufbau 23.10.19](https://github.com/dennis602/Dennis/blob/master/bild_23.10.19.jpg)
+
+
+### <a name="20"></a>Donnerstag, 24.Oktober 2019
+
+Heute haben wir zu dem funktionierenden Sketch von gestern noch LED´s eingebaut, um eine Ampel darzustellen. Eine grüne LED leuchtet, wenn der Parkplatz frei ist und eine rote LED leuchtet, wenn der Parkplatz besetzt ist. Dazu haben wir im Void Setup die pinModes für die LED´s angegeben und im Void Loop an entsprechender Stelle digitalWrite(pin, HIGH bzw. LOW) eingefügt. Alles hat funktioniert, sodass wir unseren Sketch ersteinmal fertig hätten. Nur einen Kritikpunkt gibt es: Misst der Ultraschallsensor eine Entfernung von unter 3 cm und der Bewegungsmelder nimmt eine Bewegung war, passiert nichts. Das soll auch so sein, doch ist direkt danach die Entfernung vor dem Ultraschallsensor wieder mehr als 3 cm, führt der Servo die Bewegung noch aus. Das ist jedoch unvermeidlich, da der Bewegungsmelder das Signal einer Bewegung eine Weile lang sendet, damit der Servo nicht direkt wieder zurück dreht. Wird also in dieser Zeit die Entfernung wieder größer, wird die Bewegung noch ausgeführt. Das lässt sich aber wiegesagt nicht vermeiden, ist aber auch kein Problem, gerade im Zusammenhang, wenn wir wirklich ein Parkhaus bauen. Dort geht dann also die Schranke auch nach Ankunft eines Autos noch auf, sobald der Parkplatz innerhalb von der Bewegungsmeldersendezeit wieder frei wird.
 
