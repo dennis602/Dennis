@@ -40,6 +40,8 @@
 
 [20. Donnerstag, 24. Oktober 2019](#20)
 
+[21. Dienstag, 29. Oktober 2019](#21)
+
 
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
@@ -186,4 +188,11 @@ Heute haben wir weiter probiert unseren Plan in die Tat umzusetzen. Zuerst haben
 ### <a name="20"></a>Donnerstag, 24.Oktober 2019
 
 Heute haben wir zu dem funktionierenden Sketch von gestern noch LED´s eingebaut, um eine Ampel darzustellen. Eine grüne LED leuchtet, wenn der Parkplatz frei ist und eine rote LED leuchtet, wenn der Parkplatz besetzt ist. Dazu haben wir im Void Setup die pinModes für die LED´s angegeben und im Void Loop an entsprechender Stelle digitalWrite(pin, HIGH bzw. LOW) eingefügt. Alles hat funktioniert, sodass wir unseren Sketch ersteinmal fertig hätten. Nur einen Kritikpunkt gibt es: Misst der Ultraschallsensor eine Entfernung von unter 3 cm und der Bewegungsmelder nimmt eine Bewegung war, passiert nichts. Das soll auch so sein, doch ist direkt danach die Entfernung vor dem Ultraschallsensor wieder mehr als 3 cm, führt der Servo die Bewegung noch aus. Das ist jedoch unvermeidlich, da der Bewegungsmelder das Signal einer Bewegung eine Weile lang sendet, damit der Servo nicht direkt wieder zurück dreht. Wird also in dieser Zeit die Entfernung wieder größer, wird die Bewegung noch ausgeführt. Das lässt sich aber wiegesagt nicht vermeiden, ist aber auch kein Problem, gerade im Zusammenhang, wenn wir wirklich ein Parkhaus bauen. Dort geht dann also die Schranke auch nach Ankunft eines Autos noch auf, sobald der Parkplatz innerhalb von der Bewegungsmeldersendezeit wieder frei wird.
+
+
+### <a name="21"></a>Dienstag, 29.Oktober 2019
+
+Da wir mit der Schaltung der LEDs noch nicht ganz zufrieden waren, haben wir dieses heute im Sketch noch verändert. Jetzt leuchtet immer dann eine gelbe (noch zu rot ändern?) LED, wenn der Ultraschallsenspr eine Distanz von weniger als 3 cm misst, was ja heißt, dass der Parkplatz belegt ist. Misst der Sensor eine Entfernung von mehr als 3 cm, leuchtet eine grüe LED, um zu symbolisieren, dass der Parkplatz frei ist und ein Auto einfahren kann. Softwaretechnisch sind wir also fertig.
+
+Anschließend haben wir begonnen, unsere Projektseite zu erstellen und dort das Vorwort geschrieben. Damit wir alles vor dem Abgabetermin am 15. November schaffen, haben wir den Arduino mit Sensoren und Kabeln mit nach Hause genommen, um am nun kommenden langen Wochenende das Parkhaus wirklich bauen zu können. Die nächsten Stunden werden wir dementsprechend für die Projektseite nutzen. 
 
