@@ -200,5 +200,9 @@ Anschließend haben wir begonnen, unsere Projektseite zu erstellen und dort das 
 
 ### <a name="22"></a>Freitag, 01. November 2019
 
-Heute haben wir uns privat zu Hause getroffen, um das Parkhaus zu bauen. Erst haben wir noch alle Kabel strukturiert und gegebenenfalls verlängert. Dann haben wir alles dem Parkhaus entsprechend in einen Schuhkarton eingebaut. Leider konnten wir es noch nicht ganz beenden, weil der bestellte Servo noch nicht angekommen ist. Also konnten wir auch noch nicht prüfen, ob alles so funktioniert, wie wir es uns vorstellen. Aber da ja im Unterricht alles geklappt hat, dürfte das kein Problem darstellen.
+Heute haben wir uns privat zu Hause getroffen, um das Parkhaus zu bauen. Erst haben wir noch alle Kabel strukturiert und gegebenenfalls verlängert. Dann haben wir alles dem Parkhaus entsprechend in einen Schuhkarton eingebaut.
+
+![Parkhaus ohne Servo](https://github.com/dennis602/Stundenprotokoll/blob/master/Parkhaus%20ohne%20Servo.jpeg?raw=true)
+
+Leider konnten wir es noch nicht ganz beenden, weil der bestellte Servo noch nicht angekommen ist. Also konnten wir auch noch nicht prüfen, ob alles so funktioniert, wie wir es uns vorstellen. Aber da ja im Unterricht alles geklappt hat, dürfte das kein Problem darstellen.
 
