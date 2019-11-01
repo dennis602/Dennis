@@ -42,6 +42,7 @@
 
 [21. Dienstag, 29. Oktober 2019](#21)
 
+[22. Freitag, 01. November 2019](#22)
 
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
@@ -195,4 +196,9 @@ Heute haben wir zu dem funktionierenden Sketch von gestern noch LED´s eingebaut
 Da wir mit der Schaltung der LEDs noch nicht ganz zufrieden waren, haben wir dieses heute im Sketch noch verändert. Jetzt leuchtet immer dann eine gelbe (noch zu rot ändern?) LED, wenn der Ultraschallsenspr eine Distanz von weniger als 3 cm misst, was ja heißt, dass der Parkplatz belegt ist. Misst der Sensor eine Entfernung von mehr als 3 cm, leuchtet eine grüe LED, um zu symbolisieren, dass der Parkplatz frei ist und ein Auto einfahren kann. Softwaretechnisch sind wir also fertig.
 
 Anschließend haben wir begonnen, unsere Projektseite zu erstellen und dort das Vorwort geschrieben. Damit wir alles vor dem Abgabetermin am 15. November schaffen, haben wir den Arduino mit Sensoren und Kabeln mit nach Hause genommen, um am nun kommenden langen Wochenende das Parkhaus wirklich bauen zu können. Die nächsten Stunden werden wir dementsprechend für die Projektseite nutzen. 
+
+
+### <a name="22"></a>Freitag, 01. November 2019
+
+Heute haben wir uns privat zu Hause getroffen, um das Parkhaus zu bauen. Erst haben wir noch alle Kabel strukturiert und gegebenenfalls verlängert. Dann haben wir alles dem Parkhaus entsprechend in einen Schuhkarton eingebaut. Leider konnten wir es noch nicht ganz beenden, weil der bestellte Servo noch nicht angekommen ist. Also konnten wir auch noch nicht prüfen, ob alles so funktioniert, wie wir es uns vorstellen. Aber da ja im Unterricht alles geklappt hat, dürfte das kein Problem darstellen.
 
