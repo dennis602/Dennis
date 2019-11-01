@@ -205,4 +205,4 @@ Heute haben wir uns privat zu Hause getroffen, um das Parkhaus zu bauen. Erst ha
 ![Parkhaus ohne Servo](https://github.com/dennis602/Stundenprotokoll/blob/master/Parkhaus%20ohne%20Servo.jpeg?raw=true)
 
 Leider konnten wir es noch nicht ganz beenden, weil der bestellte Servo noch nicht angekommen ist. Also konnten wir auch noch nicht prüfen, ob alles so funktioniert, wie wir es uns vorstellen. Aber da ja im Unterricht alles geklappt hat, dürfte das kein Problem darstellen.
-
+Außerdem haben wir an der Projektseite weitergearbeitet.
