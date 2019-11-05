@@ -44,6 +44,8 @@
 
 [22. Freitag, 01. November 2019](#22)
 
+[23. Dienstag, 05. November 2019](#23)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -206,3 +208,9 @@ Heute haben wir uns privat zu Hause getroffen, um das Parkhaus zu bauen. Erst ha
 
 Leider konnten wir es noch nicht ganz beenden, weil der bestellte Servo noch nicht angekommen ist. Also konnten wir auch noch nicht prüfen, ob alles so funktioniert, wie wir es uns vorstellen. Aber da ja im Unterricht alles geklappt hat, dürfte das kein Problem darstellen.
 Außerdem haben wir an der Projektseite weitergearbeitet.
+
+
+### <a name="23"></a>Dienstag, 05. November 2019
+
+Heute haben wir an der Projektseite weitergearbeitet. Wir haben uns dafür die tiefere Struktur überlegt und wie wir sie genau gestalten. 
+Außerdem hätten wir gerne schon ein Servo heute Nachmittag zu Hause in das Parkhaus eingebaut. Der Servo ist allerdings noch nicht geliefert, weshalb wir mit dem Kran (den wir bisher immer für unsere Servofunktionen genommen haben) zu Hause testeten, ob alles funktioniert. Es bestand nur das Problem, dass der Servo beim Empfangen eines Bewegungssignals sehr gezittert hat. Im Serial Monitor konnte man sehen, dass der Status die ganze Zeit zwischen "Schranke offen" und "Parkplatz besetzt" wechselt. Also musste das Problem da liegen, dass der Ultraschallsensor auch die ganze Zeit ein Signal sendet. Also kamen wir auf die Idee, in den Sketch bei der offenen Schranke ein delay(...) einzubauen, um das Void Loop die Zeit, die die Schranke offen ist, anzuhalten. Somit gibt es keine durcheinanderkommenden Signale mehr und alles läuft sauber und flüssig, ohne zu zittern.
