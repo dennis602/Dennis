@@ -46,6 +46,8 @@
 
 [23. Dienstag, 05. November 2019](#23)
 
+[24. Mittwoch, 06. November 2019](#24)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -214,3 +216,9 @@ Außerdem haben wir an der Projektseite weitergearbeitet.
 
 Heute haben wir an der Projektseite weitergearbeitet. Wir haben uns dafür die tiefere Struktur überlegt und wie wir sie genau gestalten. 
 Außerdem hätten wir gerne schon ein Servo heute Nachmittag zu Hause in das Parkhaus eingebaut. Der Servo ist allerdings noch nicht geliefert, weshalb wir mit dem Kran (den wir bisher immer für unsere Servofunktionen genommen haben) zu Hause testeten, ob alles funktioniert. Es bestand nur das Problem, dass der Servo beim Empfangen eines Bewegungssignals sehr gezittert hat. Im Serial Monitor konnte man sehen, dass der Status die ganze Zeit zwischen "Schranke offen" und "Parkplatz besetzt" wechselt. Also musste das Problem da liegen, dass der Ultraschallsensor auch die ganze Zeit ein Signal sendet. Also kamen wir auf die Idee, in den Sketch bei der offenen Schranke ein delay(...) einzubauen, um das Void Loop die Zeit, die die Schranke offen ist, anzuhalten. Somit gibt es keine durcheinanderkommenden Signale mehr und alles läuft sauber und flüssig, ohne zu zittern.
+
+
+### <a name="24"></a>Mittwoch, 06. November 2019
+
+Zuerst haben wir den Delay vom Vortag in den Sketch eingebaut. Doch ohne den Servo konnten wir nicht an unserem Projekt weiterarbeiten. Deshalb haben wir weiter die Projektseite gearbeitet. Hier haben wir uns der Überschrift "Prokektentwicklung" gewidmet. Als erses haben wir unser generelles Vorgehen beschrieben. Wir haben immer von leicht zu komplex gearbeitet und dabei mehere kleine Teile am Ende zu einem Größeren zusammengebaut. Dieses Vorgehen haben wir dann noch an unseren praktischen Geräten wie LEDs, Servos, Bewegungsmelder und Ultraschallsensor erklärt. 
+Unser Parhaus-Projekt ist jetzt also fast fertig. Das Parkhaus ist bis auf den Servo und die Schranke fertig und der Sketch ist komplett fertig. Die restlichen Stunden bis zur Abgabe fokussieren wir uns nun also auf die Projektseite.
