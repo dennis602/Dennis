@@ -48,6 +48,8 @@
 
 [24. Mittwoch, 06. November 2019](#24)
 
+[25. Donnerstag, 07. Novemver 2019](#25)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -222,3 +224,8 @@ Außerdem hätten wir gerne schon ein Servo heute Nachmittag zu Hause in das Par
 
 Zuerst haben wir den Delay vom Vortag in den Sketch eingebaut. Doch ohne den Servo konnten wir nicht an unserem Projekt weiterarbeiten. Deshalb haben wir weiter die Projektseite gearbeitet. Hier haben wir uns der Überschrift "Prokektentwicklung" gewidmet. Als erses haben wir unser generelles Vorgehen beschrieben. Wir haben immer von leicht zu komplex gearbeitet und dabei mehere kleine Teile am Ende zu einem Größeren zusammengebaut. Dieses Vorgehen haben wir dann noch an unseren praktischen Geräten wie LEDs, Servos, Bewegungsmelder und Ultraschallsensor erklärt. 
 Unser Parhaus-Projekt ist jetzt also fast fertig. Das Parkhaus ist bis auf den Servo und die Schranke fertig und der Sketch ist komplett fertig. Die restlichen Stunden bis zur Abgabe fokussieren wir uns nun also auf die Projektseite.
+
+
+### <a name="25"></a>Donnerstag, 07. November 2019
+
+Heute ging es also weiter darum, an der Projektseite zu schreiben. Wir haben außerdem Bilder vom Sketch auf GitHub hochgeladen, um diese später auf der Projektseite erklären zu können. Heute haben wir die Hardware unseres Projektes genau auf der Projektseite erläutert. Anschließend haben wir uns aufgeteilt, wer welche Teile der Projektseite über das Wochenende schreibt, damit wir rechtzeitig fertig werden.
