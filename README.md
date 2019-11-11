@@ -50,6 +50,8 @@
 
 [25. Donnerstag, 07. Novemver 2019](#25)
 
+[26. Montag, 11. November 2019](#26)
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 Herr Buhl stellte uns einige Optionen für Projekte und verschiedene Vorkenntnisgruppen vor. Da wir beide keine Vorkenntnisse besitzen hatten wir beide Lust, das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
 
@@ -229,3 +231,9 @@ Unser Parhaus-Projekt ist jetzt also fast fertig. Das Parkhaus ist bis auf den S
 ### <a name="25"></a>Donnerstag, 07. November 2019
 
 Heute ging es also weiter darum, an der Projektseite zu schreiben. Wir haben außerdem Bilder vom Sketch auf GitHub hochgeladen, um diese später auf der Projektseite erklären zu können. Heute haben wir die Hardware unseres Projektes genau auf der Projektseite erläutert. Anschließend haben wir uns aufgeteilt, wer welche Teile der Projektseite über das Wochenende schreibt, damit wir rechtzeitig fertig werden.
+
+
+### <a name="26"></a>Montag, 11. November 2019
+
+Heute haben wir den Servo und somit die Schranke endlich eingebaut. Zum Glück hat alles einwandfrei funktioniert. Anschließend haben wir ein Video davon gedreht und auf Youtube hochgeladen. https://youtu.be/xYs6pj2Sc_M 
+Der Link ist auch auf der Projektseite, zur VErdeutlichung und damit die Möglichkeit besteht, sich das hier die ganze Zeit beschriebene Projekt einmal in "Realität" zu sehen. Außerdem haben wir noch Fotos gemacht, die wir auf der Projektseite zeigen werden.
