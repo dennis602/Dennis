@@ -236,4 +236,4 @@ Heute ging es also weiter darum, an der Projektseite zu schreiben. Wir haben au�
 ### <a name="26"></a>Montag, 11. November 2019
 
 Heute haben wir den Servo und somit die Schranke endlich eingebaut. Zum Glück hat alles einwandfrei funktioniert. Anschließend haben wir ein Video davon gedreht und auf Youtube hochgeladen. https://youtu.be/xYs6pj2Sc_M 
-Der Link ist auch auf der Projektseite, zur VErdeutlichung und damit die Möglichkeit besteht, sich das hier die ganze Zeit beschriebene Projekt einmal in "Realität" zu sehen. Außerdem haben wir noch Fotos gemacht, die wir auf der Projektseite zeigen werden.
+Der Link ist auch auf der Projektseite, zur Verdeutlichung und damit die Möglichkeit besteht, sich das hier die ganze Zeit beschriebene Projekt einmal in "Realität" zu sehen. Außerdem haben wir noch Fotos gemacht, die wir auf der Projektseite zeigen werden.
