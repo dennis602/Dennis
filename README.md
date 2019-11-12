@@ -259,5 +259,5 @@ Der Link ist auch auf der Projektseite, zur Verdeutlichung und damit die Möglic
 
 ### <a name="27"></a>Dienstag, 12. November 2019
 
-Von Zuhause haben wir noch Bilder unseres fertigen Parkhauses mitgebracht, die wir in unserer Projektseite hochgeladen haben. Da wir mit der Projektseite soweit fertig sind haben wir heute damit begonnen, sie gemeinsam Korrektur zu lesen. Erstens haben wir nach grammatischen Fehlern gesucht und zweitens nach Unstimmigkeiten im Text, da wir Teile davon getrennt geschreiben haben. Damit sind wir allerdings nicht fertig geworden
+Von Zuhause haben wir noch Bilder unseres fertigen Parkhauses mitgebracht, die wir in unserer Projektseite hochgeladen haben. Da wir mit der Projektseite soweit fertig sind haben wir heute damit begonnen, sie gemeinsam Korrektur zu lesen. Erstens haben wir nach grammatischen Fehlern gesucht und zweitens nach Unstimmigkeiten im Text, da wir Teile davon getrennt geschreiben haben. Damit sind wir allerdings nicht fertig geworden.
 
