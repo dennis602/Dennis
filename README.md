@@ -52,6 +52,9 @@
 
 [26. Montag, 11. November 2019](#26)
 
+[27. Dienstag, 12. November 2019](#27)
+
+
 ### <a name="1"></a>Dienstag, 13. August 2019
 
 Herr Buhl stellte uns einige Optionen für Projekte für verschiedene Vorkenntnisgruppen vor. Anschließend mussten wir Gruppen finden. Da wir beide (Peter und Dennis) keine Vorkenntnisse besitzen, hatten wir beide Lust, zusammen das Programmieren an etwas Praktischem zu erlernen. Deshalb wollten wir für unser Projekt einen Arduino verwenden. 
@@ -199,24 +202,24 @@ Heute wollten wir den funktionierenden Sketch für den Ultraschallsensor mit dem
 
 ### <a name="18"></a>Dienstag, 22.Oktober 2019
 
-Heute war die erste Stunde nach den Herbstferien. Aus diesem Grund mussten wir uns auch erst wieder in das Thema einlesen und eindenken. Als nächstes haben wir einen neuen Ansatz verfolgt, um unser Problem von vor den Ferien zu lösen. Der neue Ansatz ist eine so genannte  "Do While" Schleife im Sketch. Diese befindet sich im Loop des Sketches. In den " Do" Teil haben wir die Anweiseungen für den Bewegungsmelder und den Servo geschrieben und in den "While" Teil die Bedingung, dass die Entfernung größer als 3cm sein muss. Gedacht war also, dass der "Do" Teil nur funktioniert, wenn der Ultraschallsensor eine Entfernung über 3cm feststellt. Leider hat auch dieser Ansatz noch nicht ganz funktioniert, der Servo hat sich zwar auf unsere Handbewegung hin bewegt, doch leider auch wenn ein Gegenstand dichter als 3cm am Ultraschallsensor war. Das sollte eigentlich nicht passieren.
+Heute war die erste Stunde nach den Herbstferien. Aus diesem Grund mussten wir uns auch erst wieder in das Thema einlesen und eindenken. Als nächstes haben wir einen neuen Ansatz verfolgt, um unser Problem von vor den Ferien zu lösen. Der neue Ansatz ist eine so genannte  "Do While" Schleife im Sketch. Diese befindet sich im Loop des Sketches. In den " Do" Teil haben wir die Anweisungen für den Bewegungsmelder und den Servo geschrieben und in den "While" Teil die Bedingung, dass die Entfernung größer als 3cm sein muss. Gedacht war also, dass der "Do" Teil nur funktioniert, wenn der Ultraschallsensor eine Entfernung über 3cm feststellt. Leider hat auch dieser Ansatz noch nicht ganz funktioniert, der Servo hat sich zwar auf unsere Handbewegung hin bewegt, doch leider auch wenn ein Gegenstand dichter als 3cm am Ultraschallsensor war. Das sollte eigentlich nicht passieren.
 
 
 ### <a name="19"></a>Mittwoch, 23.Oktober 2019
 
-Heute haben wir weiter probiert unseren Plan in die Tat umzusetzen. Zuerst haben wir eine "While" Schleife gemacht und in den While-Teil die Bedingung distance größer als 3cm eingefügt. Wir wollten, dass zuerst die Entfernung kontrolliert wird und nur wenn diese groß genug ist, also kein "Auto" vor dem Sensor steht, soll der Bewegungsmelder-Servo-Sketch aktiviert werden. Leider hat das nicht so funktioniert wie wir wollten. Danach haben wir nochmal den Ansatz mit mehreren If Bedingungen ausprobiert. Wir haben in der ersten If Bedingung die Entfernung geregelt und in der zweiten dann der Bewegungsmelder. Um einen Überlick zu erhalten haben wir einen Serialprint eingefügt. Und auf einmal hat alles funktioniert. der Servo reagiert auf Bewegung, aber nur wenn der Ultraschallsensor eine Entfernung über 3cm feststellt. Ein paar Kleinigkeiten ruckelten noch im Servo aber im großen und ganzen hat jetzt alles so funktioniert wie wir es wollten.
+Heute haben wir weiter probiert unseren Plan in die Tat umzusetzen. Zuerst haben wir eine "While" Schleife gemacht und in den While-Teil die Bedingung distance größer als 3cm eingefügt. Wir wollten, dass zuerst die Entfernung kontrolliert wird und nur wenn diese groß genug ist, also kein "Auto" vor dem Sensor steht, soll der Bewegungsmelder-Servo-Sketch aktiviert werden. Leider hat das nicht so funktioniert wie wir wollten. Danach haben wir nochmal den Ansatz mit mehreren If Bedingungen ausprobiert. Wir haben in der ersten If Bedingung die Entfernung geregelt und in der zweiten dann der Bewegungsmelder. Um einen Überlick zu erhalten haben wir einen Serialprint eingefügt. Und auf einmal hat alles funktioniert. Der Servo reagiert auf Bewegung, aber nur wenn der Ultraschallsensor eine Entfernung über 3cm feststellt. Ein paar Kleinigkeiten ruckelten noch im Servo aber im großen und ganzen hat jetzt alles so funktioniert wie wir es wollten.
 
 ![Aufbau 23.10.19](https://github.com/dennis602/Dennis/blob/master/bild_23.10.19.jpg)
 
 
 ### <a name="20"></a>Donnerstag, 24.Oktober 2019
 
-Heute haben wir zu dem funktionierenden Sketch von gestern noch LED´s eingebaut, um eine Ampel darzustellen. Eine grüne LED leuchtet, wenn der Parkplatz frei ist und eine rote LED leuchtet, wenn der Parkplatz besetzt ist. Dazu haben wir im Void Setup die pinModes für die LED´s angegeben und im Void Loop an entsprechender Stelle digitalWrite(pin, HIGH bzw. LOW) eingefügt. Alles hat funktioniert, sodass wir unseren Sketch ersteinmal fertig hätten. Nur einen Kritikpunkt gibt es: Misst der Ultraschallsensor eine Entfernung von unter 3 cm und der Bewegungsmelder nimmt eine Bewegung war, passiert nichts. Das soll auch so sein, doch ist direkt danach die Entfernung vor dem Ultraschallsensor wieder mehr als 3 cm, führt der Servo die Bewegung noch aus. Das ist jedoch unvermeidlich, da der Bewegungsmelder das Signal einer Bewegung eine Weile lang sendet, damit der Servo nicht direkt wieder zurück dreht. Wird also in dieser Zeit die Entfernung wieder größer, wird die Bewegung noch ausgeführt. Das lässt sich aber wiegesagt nicht vermeiden, ist aber auch kein Problem, gerade im Zusammenhang, wenn wir wirklich ein Parkhaus bauen. Dort geht dann also die Schranke auch nach Ankunft eines Autos noch auf, sobald der Parkplatz innerhalb von der Bewegungsmeldersendezeit wieder frei wird.
+Heute haben wir zu dem funktionierenden Sketch von gestern noch LED´s eingebaut, um eine Ampel darzustellen. Eine grüne LED leuchtet, wenn der Parkplatz frei ist und eine rote LED leuchtet, wenn der Parkplatz besetzt ist. Dazu haben wir im Void Setup die pinModes für die LED´s angegeben und im Void Loop an entsprechender Stelle digitalWrite(pin, HIGH bzw. LOW) eingefügt. Alles hat funktioniert, sodass wir unseren Sketch ersteinmal fertig hätten. Nur einen Kritikpunkt gibt es: Misst der Ultraschallsensor eine Entfernung von unter 3 cm und der Bewegungsmelder nimmt eine Bewegung war, passiert nichts. Das soll auch so sein, doch ist direkt danach die Entfernung vor dem Ultraschallsensor wieder mehr als 3 cm, führt der Servo die Bewegung noch aus. Das ist jedoch unvermeidlich, da der Bewegungsmelder das Signal einer Bewegung eine Weile lang sendet, damit der Servo nicht direkt wieder zurück dreht. Wird also in dieser Zeit die Entfernung wieder größer, wird die Bewegung noch ausgeführt. Das lässt sich aber wie gesagt nicht vermeiden, ist aber auch kein Problem, gerade im Zusammenhang, wenn wir wirklich ein Parkhaus bauen. Dort geht dann also die Schranke auch nach Ankunft eines Autos noch auf, sobald der Parkplatz innerhalb von der Bewegungsmeldersendezeit wieder frei wird.
 
 
 ### <a name="21"></a>Dienstag, 29.Oktober 2019
 
-Da wir mit der Schaltung der LEDs noch nicht ganz zufrieden waren, haben wir dieses heute im Sketch noch verändert. Jetzt leuchtet immer dann eine gelbe (noch zu rot ändern?) LED, wenn der Ultraschallsenspr eine Distanz von weniger als 3 cm misst, was ja heißt, dass der Parkplatz belegt ist. Misst der Sensor eine Entfernung von mehr als 3 cm, leuchtet eine grüe LED, um zu symbolisieren, dass der Parkplatz frei ist und ein Auto einfahren kann. Softwaretechnisch sind wir also fertig.
+Da wir mit der Schaltung der LEDs noch nicht ganz zufrieden waren, haben wir dieses heute im Sketch noch verändert. Jetzt leuchtet immer dann eine gelbe (sobald uns eine Rote LED zur verfügung steht, ändern wir die gelbe in eine rote) LED, wenn der Ultraschallsensor eine Distanz von weniger als 3 cm misst, was ja heißt, dass der Parkplatz belegt ist. Misst der Sensor eine Entfernung von mehr als 3 cm, leuchtet eine grüe LED, um zu symbolisieren, dass der Parkplatz frei ist und ein Auto einfahren kann. Softwaretechnisch sind wir also fertig.
 
 Anschließend haben wir begonnen, unsere Projektseite zu erstellen und dort das Vorwort geschrieben. Damit wir alles vor dem Abgabetermin am 15. November schaffen, haben wir den Arduino mit Sensoren und Kabeln mit nach Hause genommen, um am nun kommenden langen Wochenende das Parkhaus wirklich bauen zu können. Die nächsten Stunden werden wir dementsprechend für die Projektseite nutzen. 
 
@@ -252,3 +255,9 @@ Heute ging es also weiter darum, an der Projektseite zu schreiben. Wir haben au�
 
 Heute haben wir den Servo und somit die Schranke endlich eingebaut. Zum Glück hat alles einwandfrei funktioniert. Anschließend haben wir ein Video davon gedreht und auf Youtube hochgeladen. https://youtu.be/xYs6pj2Sc_M 
 Der Link ist auch auf der Projektseite, zur Verdeutlichung und damit die Möglichkeit besteht, sich das hier die ganze Zeit beschriebene Projekt einmal in "Realität" zu sehen. Außerdem haben wir noch Fotos gemacht, die wir auf der Projektseite zeigen werden.
+
+
+### <a name="26"></a>Dienstag, 12. November 2019
+
+Von Zuhause haben wir noch Bilder unseres fertigen Parkhauses mitgebracht, die wir in unserer Projektseite hochgeladen haben. Da wir mit der Projektseite soweit fertig sind haben wir heute damit begonnen, sie gemeinsam Korrektur zu lesen. Erstens haben wir nach grammatischen Fehlern gesucht und zweitens nach Unstimmigkeiten im Text, da wir Teile davon getrennt geschreiben haben. Damit sind wir allerdings nicht fertig geworden
+
