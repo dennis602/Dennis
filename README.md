@@ -48,7 +48,7 @@
 
 [24. Mittwoch, 06. November 2019](#24)
 
-[25. Donnerstag, 07. Novemver 2019](#25)
+[25. Donnerstag, 07. November 2019](#25)
 
 [26. Montag, 11. November 2019](#26)
 
