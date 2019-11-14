@@ -271,4 +271,4 @@ Heute ist der Informatikunterricht ausgefallen. Deshalb haben wir zu Hause die P
 
 ### <a name="29"></a>Donnerstag, 14. November 2019
 
-Heute haben wir letzte Änderungen an der Projektseite vorgenommen. Anmschließend haben wir die Links für die Projektseite und das Protokoll an Herrn Buhl geschickt. 
+Heute haben wir letzte Änderungen an der Projektseite vorgenommen. Anschließend haben wir die Links für die Projektseite und das Protokoll an Herrn Buhl geschickt. 
