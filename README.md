@@ -54,6 +54,9 @@
 
 [27. Dienstag, 12. November 2019](#27)
 
+[28. Mittwoch, 13. November 2019](#28)
+
+[29. Donnerstag, 14. November 2019](#29)
 
 ### <a name="1"></a>Dienstag, 13. August 2019
 
@@ -261,3 +264,11 @@ Der Link ist auch auf der Projektseite, zur Verdeutlichung und damit die Möglic
 
 Von Zuhause haben wir noch Bilder unseres fertigen Parkhauses mitgebracht, die wir in unserer Projektseite hochgeladen haben. Da wir mit der Projektseite soweit fertig sind haben wir heute damit begonnen, sie gemeinsam Korrektur zu lesen. Erstens haben wir nach grammatischen Fehlern gesucht und zweitens nach Unstimmigkeiten im Text, da wir Teile davon getrennt geschreiben haben. Damit sind wir allerdings nicht fertig geworden.
 
+
+### <a name="28"></a>Mittwoch, 13. November 2019
+
+Heute ist der Informatikunterricht ausgefallen. Deshalb haben wir zu Hause die Projektseite fertig überprüft. 
+
+### <a name="29"></a>Donnerstag, 14. November 2019
+
+Heute haben wir letzte Änderungen an der Projektseite vorgenommen. Anmschließend haben wir die Links für die Projektseite und das Protokoll an Herrn Buhl geschickt. 
